@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <fragment
+        android:id="@+id/FragIma"
+        android:name="com.example.exa1_control_de_rotacion2.FragmentImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        tools:layout="@layout/fragment_fragment_image">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/FragTit"
+        android:name="com.example.exa1_control_de_rotacion2.FragmentTitle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        tools:layout="@layout/fragment_fragment_title">
+
+    </fragment>
+    <fragment
+        android:id="@+id/FragDet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:name="com.example.exa1_control_de_rotacion2.FragmentDetail"
+        tools:layout="@layout/fragment_fragment_detail">
+
+    </fragment>
+</LinearLayout>
